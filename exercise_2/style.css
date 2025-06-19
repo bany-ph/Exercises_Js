@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+
+  body{
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #333;
+  }
+
+  #taskInput {
+    width: 300px;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  li{
+    list-style: none;
+    margin: 10px 0;
+  }
+
+  button{
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #218838;
+  }
