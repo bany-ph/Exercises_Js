@@ -50,9 +50,9 @@ function addTask() {
   };
 
   //crear boton eliminar
-  let buttonDelete = document.createElement("button");
-  buttonDelete.textContent = "Eliminar";
-  buttonDelete.onclick = function () {
+  let papelera = document.createElement("i"); 
+   papelera.className = "fa-solid fa-trash"
+  papelera.onclick = function () {
     taskInputLi.remove();
   };
 
@@ -60,7 +60,7 @@ function addTask() {
   taskInputLi.prepend(checkbox); // Agrega el checkbox al inicio
 
   //agregar  el boton eliminar al elemento de la lista
-  taskInputLi.appendChild(buttonDelete);
+  taskInputLi.appendChild(papelera);
 
   //agregar el elemento/tarea a la lista
   document.getElementById("taskList").appendChild(taskInputLi);
